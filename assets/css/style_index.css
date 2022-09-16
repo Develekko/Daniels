@@ -132,11 +132,10 @@ nav ul .nav-item
 #home .caption p {
     font-size: 60px;
     font-weight: 200;
-    line-height: 36px;
+    line-height: 72px;
 }
 #home .caption p span{
     font-weight: 400;
-    line-height: 36px;
 }
 .home-social ul
 {
