@@ -70,7 +70,7 @@ a {
     transition: all 0.5s;
 }
 .active_nav {
- background-color:  var(--primary-color);
+    background-color:  var(--primary-color);
 }
 
 
@@ -130,12 +130,11 @@ nav ul .nav-item
 }
 
 #home .caption p {
-    font-size: 30px;
+    font-size: 60px;
     font-weight: 200;
     line-height: 36px;
 }
 #home .caption p span{
-    font-size: 30px;
     font-weight: 400;
     line-height: 36px;
 }
@@ -450,10 +449,17 @@ nav ul .nav-item
     background-color: var(--body-bg);
     padding: 100px 0;
 }
+.testimonial-img
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
 .testimonial-box img
 {
-    margin: 1rem 0;
-    width: 15%;
+    width: 100%;
 }
 .testimonial-box p
 {

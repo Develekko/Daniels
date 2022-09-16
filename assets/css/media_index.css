@@ -1,15 +1,16 @@
 @media (max-width: 768px) 
   {
-      #home .caption p 
+    #home .caption p {
+      font-size: 30px;
+      font-weight: 200;
+      line-height: 36px;
+  }
+      #home .caption span
       {
-        font-size: 24px;
+        font-size: 30px;
         line-height: 36px;
       }
       
-      .testimonial-box img
-      {
-          width: 50%;
-      }
       nav button
       {
         border: none!important;
@@ -49,14 +50,15 @@
   {
     #home .caption p 
     {
-      font-size: 24px;
+      font-size: 44px;
+      line-height: 36px;
+    }
+    #home .caption span
+    {
+      font-size: 44px;
       line-height: 36px;
     }
     
-    .testimonial-box img
-    {
-        width: 50%;
-    }
     nav button
     {
       border: none!important;
@@ -89,5 +91,19 @@
     nav .container
     {
       max-width: 100%;
+    }
+  }
+
+@media (min-width: 992px) 
+  {
+    #home .caption p 
+    {
+      font-size: 60px;
+      line-height: 36px;
+    }
+    #home .caption span
+    {
+      font-size: 60px;
+      line-height: 36px;
     }
   }
